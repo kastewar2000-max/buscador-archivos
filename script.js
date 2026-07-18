@@ -1,1 +1,1 @@
-
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();const t=document.getElementById('q').value.trim();if(!t)return;window.open('https://www.google.com/search?q='+encodeURIComponent('site:archivosdelpasado.com '+t),'_blank');});
